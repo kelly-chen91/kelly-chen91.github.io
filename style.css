@@ -1,7 +1,11 @@
-html
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+
+body
 {
     background-color: #B6CEC8;
+    font-family: 'Playfair Display', serif;
 }
+
 table,
 tr,
 td,
