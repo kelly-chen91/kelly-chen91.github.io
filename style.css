@@ -1,3 +1,7 @@
+html
+{
+    background-color: #B6CEC8;
+}
 table,
 tr,
 td,
@@ -7,3 +11,4 @@ th {
     padding: 0.5rem;
     text-align: center;
 }
+
