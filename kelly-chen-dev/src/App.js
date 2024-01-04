@@ -31,7 +31,6 @@ function App() {
     // </div>
     <div className="App">
       <BackgroundButton />
-
       <Navigation />
       <AboutSection />
       <EducationSection />
