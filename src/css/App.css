@@ -59,23 +59,23 @@ table {
   margin-right: auto;
 }
 
-#about {
+#aboutSection {
   text-align: center;
 }
 
-#education {
+#educationSection {
   text-align: center;
 }
 
-#experience {
+#experienceSection {
   text-align: center;
 }
 
-#project {
+#projectSection {
   text-align: center;
 }
 
-#project ul {
+#projectSection ul {
   display: inline-block;
   text-align: left;
 }

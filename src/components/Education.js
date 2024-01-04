@@ -1,5 +1,5 @@
 function EducationText() {
-    return <h1>Education</h1>
+    return <h1 id="education"> Education</h1>
 }
 
 function EducationTable() {
@@ -41,7 +41,7 @@ function EducationTable() {
 
 export default function EducationSection() {
     return (
-        <div id="education">
+        <div id="educationSection">
             <EducationText />
             <EducationTable />
         </div>

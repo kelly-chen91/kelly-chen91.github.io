@@ -1,5 +1,5 @@
 function ExperienceText() {
-    return <h1>Experience</h1>
+    return <h1 id="experience">Experience</h1>
 }
 
 function ExperienceTable() {
@@ -33,7 +33,7 @@ function ExperienceTable() {
 
 export default function ExperienceSection() {
     return (
-        <div id="experience">
+        <div id="experienceSection">
             <ExperienceText />
             <ExperienceTable />
         </div>

@@ -5,9 +5,9 @@ import PersonRoundedIcon from '@mui/icons-material/PersonRounded';
 export default function Navigation() {
     return (
         <nav>
-            <a href="#" className="navigationIcon"><PersonRoundedIcon /></a>
-            <a href="#" className="navigationIcon"><SchoolRoundedIcon /></a>
-            <a href="#" className="navigationIcon"><FeedRoundedIcon /></a>
+            <a href="#about" className="navigationIcon"><PersonRoundedIcon /></a>
+            <a href="#education" className="navigationIcon"><SchoolRoundedIcon /></a>
+            <a href="#experience" className="navigationIcon"><FeedRoundedIcon /></a>
         </nav>
     );
 }

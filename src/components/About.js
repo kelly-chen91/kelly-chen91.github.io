@@ -1,5 +1,5 @@
 function AboutHeading() {
-    return <h1>About Me</h1>
+    return <h1 id="about"> About Me</h1>
 }
 
 function AboutText() {
@@ -15,7 +15,7 @@ function AboutText() {
 
 export default function AboutSection() {
     return (
-        <div id="about">
+        <div id="aboutSection">
             <AboutHeading />
             <AboutText />
         </div>

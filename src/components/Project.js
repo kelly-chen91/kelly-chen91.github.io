@@ -1,5 +1,5 @@
 function ProjectText() {
-    return <h1>Projects</h1>
+    return <h1 id="project">Projects</h1>
 }
 
 function ProjectList() {
@@ -14,7 +14,7 @@ function ProjectList() {
 
 export default function ProjectSection() {
     return (
-        <div id="project">
+        <div id="projectSection">
             <ProjectText />
             <ProjectList />
         </div>
