@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.bc5c7c15.css",
-    "main.js": "/static/js/main.c73cf2d1.js",
+    "main.css": "/static/css/main.5b78f6f1.css",
+    "main.js": "/static/js/main.5a57843a.js",
     "static/js/787.f7e5853f.chunk.js": "/static/js/787.f7e5853f.chunk.js",
     "static/media/uicons-regular-rounded-FV6JGQSF.eot": "/static/media/uicons-regular-rounded-FV6JGQSF.672868c060cebf89e40a.eot",
     "static/media/uicons-bold-rounded-KV62YCLE.eot": "/static/media/uicons-bold-rounded-KV62YCLE.ea94c70eb66fc3137bb3.eot",
@@ -26,12 +26,12 @@
     "static/media/uicons-brands-XJPKRNBN.woff2": "/static/media/uicons-brands-XJPKRNBN.033917e9fd41cfa9727c.woff2",
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
-    "main.bc5c7c15.css.map": "/static/css/main.bc5c7c15.css.map",
-    "main.c73cf2d1.js.map": "/static/js/main.c73cf2d1.js.map",
+    "main.5b78f6f1.css.map": "/static/css/main.5b78f6f1.css.map",
+    "main.5a57843a.js.map": "/static/js/main.5a57843a.js.map",
     "787.f7e5853f.chunk.js.map": "/static/js/787.f7e5853f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bc5c7c15.css",
-    "static/js/main.c73cf2d1.js"
+    "static/css/main.5b78f6f1.css",
+    "static/js/main.5a57843a.js"
   ]
 }
