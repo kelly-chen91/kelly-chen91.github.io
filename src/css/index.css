@@ -5,12 +5,26 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
+
+  --color-background: #b6cec8;
+  --color-foreground: #395C6B;
   /* font-family: "Playfair Display", serif; */
-  background-color: #b6cec8;
+  /* background-color: var(--color-background);
+  color: var(--color-foreground); */
 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+@media (prefers-color-scheme: dark) {
+  body {
+    --color-background: #395C6B;
+    --color-foreground: #b6cec8;
+  }
+
+}
+
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
