@@ -7,7 +7,7 @@ body {
     sans-serif;
 
   --color-background: #b6cec8;
-  --color-foreground: #395c6b;
+  --color-foreground: black;
   /* font-family: "Playfair Display", serif; */
   /* background-color: var(--color-background);
   color: var(--color-foreground); */
@@ -30,7 +30,7 @@ body {
 
 body.DarkMode {
   --color-background: #395c6b;
-  --color-foreground: #b6cec8;
+  --color-foreground: #ffffff;
 }
 
 code {

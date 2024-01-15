@@ -1,4 +1,4 @@
-import '../css/@flaticon/flaticon-uicons/css/all/all.css'
+// import '../css/@flaticon/flaticon-uicons/css/all/all.css'
 import SchoolRoundedIcon from '@mui/icons-material/SchoolRounded';
 import FeedRoundedIcon from '@mui/icons-material/FeedRounded';
 import PersonRoundedIcon from '@mui/icons-material/PersonRounded';
