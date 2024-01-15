@@ -6,8 +6,8 @@ body {
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
 
-  --color-background: #b6cec8;
-  --color-foreground: black;
+  --color-background: #6db69f;
+  --color-foreground: #0c212a;
   /* font-family: "Playfair Display", serif; */
   /* background-color: var(--color-background);
   color: var(--color-foreground); */
@@ -29,8 +29,8 @@ body {
 } */
 
 body.DarkMode {
-  --color-background: #395c6b;
-  --color-foreground: #ffffff;
+  --color-background: #0c212a;
+  --color-foreground: #6db69f;
 }
 
 code {
