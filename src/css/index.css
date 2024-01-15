@@ -7,7 +7,7 @@ body {
     sans-serif;
 
   --color-background: #b6cec8;
-  --color-foreground: #395C6B;
+  --color-foreground: #395c6b;
   /* font-family: "Playfair Display", serif; */
   /* background-color: var(--color-background);
   color: var(--color-foreground); */
@@ -16,15 +16,22 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   body {
-    --color-background: #395C6B;
+    --color-background: #395c6b;
     --color-foreground: #b6cec8;
   }
+} */
 
+/* .LightMode {
+  --color-background: #b6cec8;
+  --color-foreground: #395c6b;
+} */
+
+body.DarkMode {
+  --color-background: #395c6b;
+  --color-foreground: #b6cec8;
 }
-
-
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",

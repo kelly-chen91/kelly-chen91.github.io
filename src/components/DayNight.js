@@ -13,9 +13,16 @@ export default function BackgroundButton() {
         undefined,
         (isSystemDark) => setDarkMode(isSystemDark)
     );
+
+    React.useEffect(() => {
+        if (isDarkMode) {
+            document.body.classList.add('DarkMode')
+        }
+        else document.body.classList.remove('DarkMode')
+    }, [isDarkMode]);
     return (
         <FormGroup className='nightModeContainer'>
-            <FormControlLabel className='nightMode' control={
+            <FormControlLabel className='NightMode' control={
                 <Switch
                     checked={isDarkMode}
                     onChange={({ target }) => setDarkMode(target.checked)}
