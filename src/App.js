@@ -1,18 +1,11 @@
 // import logo from './logo.svg';
-import './css/App.css';
-import Navigation from './components/Nav.js';
-import EducationSection from './components/Education.js';
-import ExperienceSection from './components/Experience.js';
-import ProjectSection from './components/Project.js';
-import AboutSection from './components/About.js';
-import BackgroundButton from './components/DayNight.js';
-import { ThemeProvider, useTheme, createTheme } from '@mui/material/styles';
-
-function Footer() {
-  return <p>Uicons by <a href="https://www.flaticon.com/uicons">Flaticon</a></p>;
-
-}
-
+import "./css/App.css";
+import Home from "./components/Home.jsx";
+import { NavBar } from "./components/Home.jsx";
+import Courseworks from "./components/Courseworks.jsx";
+import Experiences from "./components/Experiences.jsx";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Error from "./components/Error.jsx";
 function App() {
   return (
     // <div className="App">
@@ -31,15 +24,18 @@ function App() {
     //     </a>
     //   </header>
     // </div>
-    <div className="App">
-      <BackgroundButton />
-      <Navigation />
-      <AboutSection />
-      <EducationSection />
-      <ExperienceSection />
-      <ProjectSection />
-      <Footer />
-    </div>
+    <Router>
+      <div className="h-screen bg-plant-dark">
+        <Routes>
+          <Route path="/" element={<NavBar />}>
+            <Route index element={<Home />} />
+            <Route path="/courseworks" element={<Courseworks />} />
+            <Route path="/experiences" element={<Experiences />} />
+            <Route path="*" element={<Error />} />
+          </Route>
+        </Routes>
+      </div>
+    </Router>
   );
 }
 
