@@ -25,7 +25,7 @@ function App() {
     //   </header>
     // </div>
     <Router>
-      <div className="h-screen bg-plant-dark">
+      <div className="bg-plant-dark">
         <Routes>
           <Route path="/" element={<NavBar />}>
             <Route index element={<Home />} />

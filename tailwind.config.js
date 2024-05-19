@@ -3,10 +3,13 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        plant: {
+        'plant': {
           light: "#6db69f",
           DEFAULT: "#1A2D35",
           dark: "#0c212a",
+        },
+        'skyblue': {
+          DEFAULT: "#90c8e0",
         },
       },
       animation: {
